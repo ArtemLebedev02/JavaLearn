@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        System.out.print("a = ");
+        int a = scan.nextInt();
+
+        System.out.print("b = ");
+        int b = scan.nextInt();
+
+        System.out.print("c = ");
+        int c = scan.nextInt();
+        if (a == c && a == b)
+            System.out.println(They equal");
+
+        if (a >= c && b >= c)
+            System.out.println(c + " Is minimum");
+        if (a >= b && c >= b)
+            System.out.println(b + " Is minimum");
+        if (b >= a && c >= a)
+            System.out.println(a + " Is minimum");
+    }
+}
