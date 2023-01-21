@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter your byte: ");
+        byte b = sc.nextByte();
+        sc.nextLine();
+        System.out.print("Enter your short: ");
+        short s = sc.nextShort();
+        sc.nextLine();
+        System.out.print("Enter Your int: ");
+        int i = sc.nextInt();
+        sc.nextLine();
+        System.out.print("Enter Your long: ");
+        long l = sc.nextLong();
+        sc.nextLine();
+        System.out.print("Enter Your float: ");
+        float f = sc.nextFloat();
+        sc.nextLine();
+        System.out.print("Enter Your double: ");
+        double d = sc.nextDouble();
+        sc.nextLine();
+        System.out.print("Enter Your Char: ");
+        char c = sc.next().charAt(0);
+        sc.nextLine();
+        System.out.print("Enter Your Boolean: ");
+        Boolean bo = sc.nextBoolean();
+        sc.nextLine();
+        System.out.print("Enter Your String: ");
+        String st = sc.next();
+        System.out.println("---------------------");
+        System.out.println(b);
+        System.out.println(s);
+        System.out.println(i);
+        System.out.println(l);
+        System.out.println(f);
+        System.out.println(d);
+        System.out.println(c);
+        System.out.println(bo);
+        System.out.println(st);
+    }
+
+}
