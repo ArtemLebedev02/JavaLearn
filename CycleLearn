@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        //здесь находим число до которого будем идти
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Choose your number: ");
+        int n = sc.nextInt();
+        double f = 1;
+        //цикл, выводим n!
+        for (int i = 1; i <= n; i++) {
+            f *= i;
+        }
+        System.out.print("n! = " + f);
+    }
+}
