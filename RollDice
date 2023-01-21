@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Input your number of rolls: ");
+        int a = sc.nextInt();
+        for (int i = 0; i < a; i++) {
+            int n = (int) (Math.random()*6 + 1);
+            System.out.print(n + " ");
+            if ((i + 1) % 50 == 0) {
+                System.out.println();
+            }
+        }
+    }
+}
