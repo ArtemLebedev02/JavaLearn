@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        //здесь находим число на которое будем умножать
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Choose your number: ");
+        int n = sc.nextInt();
+        //цикл, здесь выводим i * n
+        for (int i = 1; i <= 9; i++) {
+            System.out.println(i * n);
+        }
+    }
+}
